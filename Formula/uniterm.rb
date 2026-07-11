@@ -1,7 +1,7 @@
 cask "uniterm" do
   version "1.4.1"
-  sha256 arm:   "0000000000000000000000000000000000000000000000000000000000000000",
-         intel: "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 arm:   "40f01eb2b8ae1f6f90669de8f41828c581ac8ecb38b94886bec7a4f7c82c35b8"
+          intel: "40f01eb2b8ae1f6f90669de8f41828c581ac8ecb38b94886bec7a4f7c82c35b8"
 
   url "https://github.com/ys-ll/uniterm/releases/download/v#{version}/uniterm-darwin-universal-v#{version}.dmg"
   name "uniTerm"
