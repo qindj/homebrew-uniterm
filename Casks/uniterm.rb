@@ -1,8 +1,11 @@
 cask "uniterm" do
-  version "1.4.1"
-  sha256 "40f01eb2b8ae1f6f90669de8f41828c581ac8ecb38b94886bec7a4f7c82c35b8"
+  arch arm: "arm64", intel: "amd64"
 
-  url "https://github.com/ys-ll/uniterm/releases/download/v#{version}/uniterm-darwin-universal-v#{version}.dmg"
+  version "1.7.0"
+  sha256 arm: "placeholder",
+         intel: "placeholder"
+
+  url "https://github.com/ys-ll/uniterm/releases/download/v#{version}/uniterm-darwin-#{arch}-v#{version}.dmg"
   name "uniTerm"
   desc "Lightweight all-in-one terminal emulator with built-in AI Agent"
   homepage "https://uniterm.net"
