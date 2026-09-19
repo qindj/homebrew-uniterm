@@ -1,9 +1,9 @@
 cask "uniterm" do
   arch arm: "arm64", intel: "amd64"
 
-  version "1.7.0"
-  sha256 arm: "c56c5f4e69e3d74c5402c323064c9caf444f958848d0088d68b63750b8b4e034",
-         intel: "ecaf24298aaf6252a0e7d732818d327178dd4233f5fd9600a60a2ba11e294d9d"
+  version "1.9.4"
+  sha256 arm: "52bff17ac8cb0d6d5714bd250f748988cfc1d17dd78528c7df8fabe9d3f6a893",
+         intel: "3c8237502f4a4a218881ac3c10070c5e8eee0b7ef0ce24976c051b71a7548868"
 
   url "https://github.com/ys-ll/uniterm/releases/download/v#{version}/uniterm-darwin-#{arch}-v#{version}.dmg"
   name "uniTerm"
