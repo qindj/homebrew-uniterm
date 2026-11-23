@@ -10,5 +10,5 @@ cask "uniterm" do
   desc "Lightweight all-in-one terminal emulator with built-in AI Agent"
   homepage "https://uniterm.net"
 
-  app "uniTerm.app"
+  app "uniTerm-#{arch}.app"
 end
